@@ -61,6 +61,7 @@ registerBlockType( 'core/gallery', {
 			query( 'div.blocks-gallery figure.blocks-gallery-image img', {
 				url: attr( 'src' ),
 				alt: attr( 'alt' ),
+				id: attr( 'data-postId' ),
 			} ) || [],
 	},
 
