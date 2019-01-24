@@ -3,7 +3,7 @@
  * Plugin Name: Gutenberg
  * Plugin URI: https://github.com/WordPress/gutenberg
  * Description: Printing since 1440. This is the development plugin for the new block editor in core.
- * Version: 4.4.0
+ * Version: 4.9.0
  * Author: Gutenberg Team
  *
  * @package gutenberg
@@ -41,8 +41,9 @@ function the_gutenberg_project() {
 			);
 		} else { // Using Gutenberg in Core.
 			printf(
-				// Translators: link is for Classic Editor plugin.
-				__( 'The Block Editor requires JavaScript. Please try the <a href="https://wordpress.org/plugins/classic-editor/">Classic Editor plugin</a>.', 'gutenberg' )
+				/* translators: %s: https://wordpress.org/plugins/classic-editor/ */
+				__( 'The Block Editor requires JavaScript. Please try the <a href="%s">Classic Editor plugin</a>.', 'gutenberg' ),
+				__( 'https://wordpress.org/plugins/classic-editor/', 'gutenberg' )
 			);
 		}
 		?>
@@ -90,12 +91,6 @@ function gutenberg_menu() {
 			__( 'Support', 'gutenberg' ),
 			'edit_posts',
 			__( 'https://wordpress.org/support/plugin/gutenberg', 'gutenberg' ),
-		);
-
-		$submenu['gutenberg'][] = array(
-			__( 'Feedback', 'gutenberg' ),
-			'edit_posts',
-			'http://wordpressdotorg.polldaddy.com/s/gutenberg-support',
 		);
 
 		$submenu['gutenberg'][] = array(
@@ -151,7 +146,7 @@ function is_gutenberg_page() {
  */
 function gutenberg_wordpress_version_notice() {
 	echo '<div class="error"><p>';
-	_e( 'Gutenberg requires WordPress 4.9.8 or later to function properly. Please upgrade WordPress before activating Gutenberg.', 'gutenberg' );
+	_e( 'Gutenberg requires WordPress 5.0.0 or later to function properly. Please upgrade WordPress before activating Gutenberg.', 'gutenberg' );
 	echo '</p></div>';
 
 	deactivate_plugins( array( 'gutenberg/gutenberg.php' ) );
@@ -185,7 +180,7 @@ function gutenberg_pre_init() {
 	// Strip '-src' from the version string. Messes up version_compare().
 	$version = str_replace( '-src', '', $wp_version );
 
-	if ( version_compare( $version, '4.9.8', '<' ) ) {
+	if ( version_compare( $version, '5.0.0', '<' ) ) {
 		add_action( 'admin_notices', 'gutenberg_wordpress_version_notice' );
 		return;
 	}

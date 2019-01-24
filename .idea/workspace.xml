@@ -1,0 +1,1325 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="325d4135-0d34-4e0a-880b-0e5011286544" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/docs/contributors/coding-guidelines.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/contributors/copy-guide.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/contributors/design.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/contributors/develop.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/contributors/document.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/contributors/grammar.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/contributors/history.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/contributors/outreach.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/contributors/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/contributors/reference.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/contributors/release.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/contributors/repository-management.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/contributors/scripts.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/contributors/testing-overview.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/designers-developers/assets/fancy-quote-in-inspector.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/designers-developers/assets/fancy-quote-with-style.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/designers-developers/assets/js-tutorial-console-log-error.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/designers-developers/assets/js-tutorial-console-log-success.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/designers-developers/assets/js-tutorial-error-blocks-undefined.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/designers-developers/assets/sidebar-style-and-controls.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/designers-developers/assets/sidebar-up-and-running.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/designers-developers/assets/toolbar-text.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/designers-developers/assets/toolbar-with-custom-button.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/designers-developers/designers/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/designers-developers/designers/block-design.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/designers-developers/designers/menu-item.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/designers-developers/developers/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/designers-developers/developers/backward-compatibility/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/designers-developers/developers/backward-compatibility/deprecations.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/designers-developers/developers/backward-compatibility/meta-box.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/designers-developers/developers/block-api/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/designers-developers/developers/block-api/block-attributes.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/designers-developers/developers/block-api/block-deprecation.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/designers-developers/developers/block-api/block-edit-save.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/designers-developers/developers/block-api/block-registration.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/designers-developers/developers/data/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/designers-developers/developers/data/data-core-annotations.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/designers-developers/developers/data/data-core-blocks.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/designers-developers/developers/data/data-core-editor.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/designers-developers/developers/data/data-core-notices.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/designers-developers/developers/data/data-core.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/designers-developers/developers/filters/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/designers-developers/developers/filters/autocomplete-filters.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/designers-developers/developers/filters/block-filters.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/designers-developers/developers/filters/editor-filters.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/designers-developers/developers/filters/parser-filters.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/designers-developers/developers/internationalization.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/designers-developers/developers/packages.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/designers-developers/developers/themes/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/designers-developers/developers/themes/theme-support.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/designers-developers/developers/tutorials/block-tutorial/block-controls-toolbars-and-inspector.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/designers-developers/developers/tutorials/block-tutorial/introducing-attributes-and-editable-fields.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/designers-developers/developers/tutorials/block-tutorial/writing-your-first-block-type.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/designers-developers/developers/tutorials/format-api/1-register-format.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/designers-developers/developers/tutorials/format-api/2-toolbar-button.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/designers-developers/developers/tutorials/format-api/3-apply-format.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/designers-developers/developers/tutorials/format-api/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/designers-developers/developers/tutorials/javascript/extending-the-block-editor.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/designers-developers/developers/tutorials/javascript/loading-javascript.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/designers-developers/developers/tutorials/javascript/plugins-background.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/designers-developers/developers/tutorials/javascript/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/designers-developers/developers/tutorials/javascript/scope-your-code.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/designers-developers/developers/tutorials/javascript/troubleshooting.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/designers-developers/developers/tutorials/javascript/versions-and-building.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/designers-developers/developers/tutorials/metabox/meta-block-1-intro.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/designers-developers/developers/tutorials/metabox/meta-block-2-register-meta.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/designers-developers/developers/tutorials/metabox/meta-block-3-add.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/designers-developers/developers/tutorials/metabox/meta-block-4-use-data.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/designers-developers/developers/tutorials/metabox/meta-block-5-finishing.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/designers-developers/developers/tutorials/metabox/meta-block.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/designers-developers/developers/tutorials/metabox/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/designers-developers/developers/tutorials/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/designers-developers/developers/tutorials/sidebar-tutorial/plugin-sidebar-0.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/designers-developers/developers/tutorials/sidebar-tutorial/plugin-sidebar-1-up-and-running.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/designers-developers/developers/tutorials/sidebar-tutorial/plugin-sidebar-2-styles-and-controls.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/designers-developers/developers/tutorials/sidebar-tutorial/plugin-sidebar-3-register-meta.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/designers-developers/developers/tutorials/sidebar-tutorial/plugin-sidebar-4-initialize-input.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/designers-developers/developers/tutorials/sidebar-tutorial/plugin-sidebar-5-update-meta.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/designers-developers/developers/tutorials/sidebar-tutorial/plugin-sidebar-6-finishing-touches.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/designers-developers/faq.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/designers-developers/glossary.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/designers-developers/key-concepts.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/designers-developers/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/toc.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/users/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/packages-dependencies.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/block-library/src/html/edit.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/block-library/src/image/image-size.native.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/block-library/src/image/utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/block-library/src/paragraph/editor.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/components/src/dashicon/icon-class.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/components/src/dashicon/icon-class.native.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/components/src/date-time/test/__snapshots__/time.js.snap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/components/src/primitives/svg/style.native.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/components/src/query-controls/test/terms.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/components/src/toolbar/style.native.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/data/src/components/async-mode-provider/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/e2e-test-utils/.npmrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/e2e-test-utils/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/e2e-test-utils/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/e2e-test-utils/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/e2e-test-utils/src/activate-plugin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/e2e-test-utils/src/are-pre-publish-checks-enabled.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/e2e-test-utils/src/clear-local-storage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/e2e-test-utils/src/click-button.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/e2e-test-utils/src/click-on-more-menu-item.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/e2e-test-utils/src/create-new-post.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/e2e-test-utils/src/create-url.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/e2e-test-utils/src/deactivate-plugin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/e2e-test-utils/src/disable-pre-publish-checks.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/e2e-test-utils/src/enable-page-dialog-accept.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/e2e-test-utils/src/enable-pre-publish-checks.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/e2e-test-utils/src/get-available-block-transforms.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/e2e-test-utils/src/has-block-switcher.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/e2e-test-utils/src/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/e2e-test-utils/src/install-plugin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/e2e-test-utils/src/is-current-url.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/e2e-test-utils/src/login-user.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/e2e-test-utils/src/mocks/create-embedding-matcher.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/e2e-test-utils/src/mocks/create-json-response.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/e2e-test-utils/src/mocks/create-url-matcher.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/e2e-test-utils/src/mocks/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/e2e-test-utils/src/mocks/mock-or-transform.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/e2e-test-utils/src/mocks/set-up-response-mocking.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/e2e-test-utils/src/open-document-settings-sidebar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/e2e-test-utils/src/press-key-times.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/e2e-test-utils/src/press-key-with-modifier.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/e2e-test-utils/src/publish-post-with-pre-publish-checks-disabled.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/e2e-test-utils/src/set-browser-viewport.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/e2e-test-utils/src/switch-editor-mode-to.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/e2e-test-utils/src/switch-user-to-admin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/e2e-test-utils/src/switch-user-to-test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/e2e-test-utils/src/toggle-screen-option.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/e2e-test-utils/src/transform-block-to.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/e2e-test-utils/src/uninstall-plugin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/e2e-test-utils/src/visit-admin-page.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/e2e-test-utils/src/wait-for-window-dimensions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/e2e-tests/.npmrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/e2e-tests/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/e2e-tests/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/e2e-tests/config/setup-test-framework.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/e2e-tests/jest.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/e2e-tests/mu-plugins/disable-login-autofocus.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/e2e-tests/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/e2e-tests/plugins/align-hook.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/e2e-tests/plugins/block-icons.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/e2e-tests/plugins/container-without-paragraph.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/e2e-tests/plugins/custom-post-types.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/e2e-tests/plugins/default-post-content.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/e2e-tests/plugins/deprecated-node-matcher.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/e2e-tests/plugins/format-api.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/e2e-tests/plugins/format-api/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/e2e-tests/plugins/hooks-api.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/e2e-tests/plugins/inner-blocks-templates.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/e2e-tests/plugins/meta-attribute-block.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/e2e-tests/plugins/meta-attribute-block/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/e2e-tests/plugins/meta-box.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/e2e-tests/plugins/plugins-api.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/e2e-tests/plugins/plugins-api/annotations-sidebar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/e2e-tests/plugins/plugins-api/sidebar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/e2e-tests/plugins/post-formats.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/e2e-tests/plugins/templates.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/e2e-tests/plugins/wp-editor-metabox.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/e2e-tests/specs/__snapshots__/embedding.test.js.snap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/e2e-tests/specs/__snapshots__/links.test.js.snap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/e2e-tests/specs/__snapshots__/rich-text.test.js.snap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/e2e-tests/specs/__snapshots__/undo.test.js.snap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/e2e-tests/specs/__snapshots__/writing-flow.test.js.snap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/e2e-tests/specs/a11y.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/e2e-tests/specs/adding-blocks.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/e2e-tests/specs/adding-inline-tokens.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/e2e-tests/specs/block-deletion.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/e2e-tests/specs/block-hierarchy-navigation.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/e2e-tests/specs/block-mover.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/e2e-tests/specs/block-switcher.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/e2e-tests/specs/blocks/__snapshots__/classic.test.js.snap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/e2e-tests/specs/blocks/__snapshots__/code.test.js.snap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/e2e-tests/specs/blocks/__snapshots__/heading.test.js.snap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/e2e-tests/specs/blocks/__snapshots__/html.test.js.snap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/e2e-tests/specs/blocks/__snapshots__/list.test.js.snap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/e2e-tests/specs/blocks/__snapshots__/separator.test.js.snap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/e2e-tests/specs/blocks/classic.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/e2e-tests/specs/blocks/code.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/e2e-tests/specs/blocks/heading.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/e2e-tests/specs/blocks/html.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/e2e-tests/specs/blocks/list.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/e2e-tests/specs/blocks/quote.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/e2e-tests/specs/blocks/separator.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/e2e-tests/specs/change-detection.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/e2e-tests/specs/compatibility-classic-editor.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/e2e-tests/specs/convert-block-type.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/e2e-tests/specs/datepicker.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/e2e-tests/specs/demo.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/e2e-tests/specs/editor-modes.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/e2e-tests/specs/embedding.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/e2e-tests/specs/font-size-picker.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/e2e-tests/specs/fullscreen-mode.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/e2e-tests/specs/invalid-block.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/e2e-tests/specs/links.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/e2e-tests/specs/manage-reusable-blocks.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/e2e-tests/specs/mentions.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/e2e-tests/specs/multi-block-selection.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/e2e-tests/specs/navigable-toolbar.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/e2e-tests/specs/new-post-default-content.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/e2e-tests/specs/new-post.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/e2e-tests/specs/nux.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/e2e-tests/specs/plugins/__snapshots__/format-api.test.js.snap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/e2e-tests/specs/plugins/__snapshots__/meta-attribute-block.test.js.snap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/e2e-tests/specs/plugins/__snapshots__/plugins-api.test.js.snap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/e2e-tests/specs/plugins/__snapshots__/wp-editor-meta-box.test.js.snap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/e2e-tests/specs/plugins/align-hook.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/e2e-tests/specs/plugins/annotations.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/e2e-tests/specs/plugins/block-icons.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/e2e-tests/specs/plugins/container-blocks.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/e2e-tests/specs/plugins/deprecated-node-matcher.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/e2e-tests/specs/plugins/format-api.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/e2e-tests/specs/plugins/hooks-api.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/e2e-tests/specs/plugins/meta-attribute-block.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/e2e-tests/specs/plugins/meta-boxes.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/e2e-tests/specs/plugins/plugins-api.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/e2e-tests/specs/plugins/templates.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/e2e-tests/specs/plugins/wp-editor-meta-box.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/e2e-tests/specs/popovers.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/e2e-tests/specs/post-visibility.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/e2e-tests/specs/preferences.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/e2e-tests/specs/preview.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/e2e-tests/specs/publish-button.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/e2e-tests/specs/publish-panel.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/e2e-tests/specs/publishing.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/e2e-tests/specs/reusable-blocks.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/e2e-tests/specs/rich-text.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/e2e-tests/specs/shortcut-help.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/e2e-tests/specs/sidebar-permalink-panel.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/e2e-tests/specs/sidebar.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/e2e-tests/specs/splitting-merging.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/e2e-tests/specs/style-variation.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/e2e-tests/specs/taxonomies.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/e2e-tests/specs/undo.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/e2e-tests/specs/writing-flow.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/edit-post/src/components/admin-notices/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/edit-post/src/components/admin-notices/test/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/edit-post/src/components/header/plugin-more-menu-item/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/edit-post/src/components/header/plugin-more-menu-item/test/__snapshots__/index.js.snap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/edit-post/src/components/header/plugin-more-menu-item/test/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/edit-post/src/prevent-event-discovery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/editor/src/components/colors/test/__snapshots__/with-colors.js.snap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/editor/src/components/colors/test/with-colors.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/editor/src/components/default-block-appender/index.native.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/editor/src/components/default-block-appender/style.native.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/editor/src/components/font-sizes/style.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/editor/src/components/multi-selection-inspector/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/editor/src/components/multi-selection-inspector/style.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/editor/src/store/constants.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/editor/src/utils/test/url.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/eslint-plugin/.npmrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/eslint-plugin/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/eslint-plugin/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/eslint-plugin/configs/custom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/eslint-plugin/configs/es5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/eslint-plugin/configs/esnext.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/eslint-plugin/configs/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/eslint-plugin/configs/jshint.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/eslint-plugin/configs/jsx-a11y.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/eslint-plugin/configs/react.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/eslint-plugin/configs/recommended.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/eslint-plugin/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/eslint-plugin/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/format-library/src/underline/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/is-shallow-equal/benchmark/.eslintrc.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/is-shallow-equal/test/.eslintrc.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/jest-puppeteer-axe/.npmrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/jest-puppeteer-axe/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/jest-puppeteer-axe/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/jest-puppeteer-axe/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/jest-puppeteer-axe/src/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/priority-queue/.npmrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/priority-queue/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/priority-queue/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/priority-queue/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/priority-queue/src/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/scripts/config/.stylelintrc.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/scripts/config/jest-e2e.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/scripts/config/jest-unit.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/scripts/scripts/build.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/scripts/scripts/check-engines.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/scripts/scripts/lint-style.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/scripts/scripts/start.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/scripts/scripts/test-e2e.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/scripts/utils/cli.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/scripts/utils/config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/scripts/utils/file.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/integration/fixtures/shortcode-caption-with-caption-link.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/integration/fixtures/shortcode-caption-with-link.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/integration/full-content/fixtures/core__image__custom-link-class.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/integration/full-content/fixtures/core__image__custom-link-class.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/integration/full-content/fixtures/core__image__custom-link-class.parsed.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/integration/full-content/fixtures/core__image__custom-link-class.serialized.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/integration/full-content/fixtures/core__image__custom-link-rel.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/integration/full-content/fixtures/core__image__custom-link-rel.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/integration/full-content/fixtures/core__image__custom-link-rel.parsed.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/integration/full-content/fixtures/core__image__custom-link-rel.serialized.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/integration/non-matched-tags-handling.spec.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eslintignore" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eslintrc.js" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintrc.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/PULL_REQUEST_TEMPLATE.md" beforeDir="false" afterPath="$PROJECT_DIR$/.github/PULL_REQUEST_TEMPLATE.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CONTRIBUTING.md" beforeDir="false" afterPath="$PROJECT_DIR$/CONTRIBUTING.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CONTRIBUTORS.md" beforeDir="false" afterPath="$PROJECT_DIR$/CONTRIBUTORS.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LICENSE.md" beforeDir="false" afterPath="$PROJECT_DIR$/LICENSE.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/stylesheets/_mixins.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/stylesheets/_mixins.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/stylesheets/_z-index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/stylesheets/_z-index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/generate-public-grammar.js" beforeDir="false" afterPath="$PROJECT_DIR$/bin/generate-public-grammar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/install-wordpress.sh" beforeDir="false" afterPath="$PROJECT_DIR$/bin/install-wordpress.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/packages/watch.js" beforeDir="false" afterPath="$PROJECT_DIR$/bin/packages/watch.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/block-api.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/block-api/attributes.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/block-api/block-edit-save.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/block-api/deprecated-blocks.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/blocks.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/designers-developers/developers/tutorials/block-tutorial/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/blocks/applying-styles-with-stylesheets.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/designers-developers/developers/tutorials/block-tutorial/applying-styles-with-stylesheets.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/blocks/block-controls-toolbars-and-inspector.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/blocks/creating-dynamic-blocks.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/designers-developers/developers/tutorials/block-tutorial/creating-dynamic-blocks.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/blocks/generate-blocks-with-wp-cli.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/designers-developers/developers/tutorials/block-tutorial/generate-blocks-with-wp-cli.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/blocks/inspector.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/designers-developers/assets/inspector.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/blocks/introducing-attributes-and-editable-fields.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/blocks/writing-your-first-block-type.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/data/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/data/data-core-annotations.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/data/data-core-blocks.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/data/data-core-edit-post.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/designers-developers/developers/data/data-core-edit-post.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/data/data-core-editor.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/data/data-core-notices.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/data/data-core-nux.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/designers-developers/developers/data/data-core-nux.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/data/data-core-viewport.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/designers-developers/developers/data/data-core-viewport.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/data/data-core.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/design.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/design/advanced-settings-do.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/designers-developers/designers/assets/advanced-settings-do.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/design/block-controls-do.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/designers-developers/designers/assets/block-controls-do.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/design/block-controls-dont.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/designers-developers/designers/assets/block-controls-dont.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/design/block-descriptions-do.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/designers-developers/designers/assets/block-descriptions-do.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/design/block-descriptions-dont.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/designers-developers/designers/assets/block-descriptions-dont.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/design/block-design.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/design/blocks-do.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/designers-developers/designers/assets/blocks-do.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/design/blocks-dont.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/designers-developers/designers/assets/blocks-dont.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/design/design-patterns.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/designers-developers/designers/design-patterns.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/design/design-resources.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/designers-developers/designers/design-resources.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/design/placeholder-do.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/designers-developers/designers/assets/placeholder-do.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/design/placeholder-dont.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/designers-developers/designers/assets/placeholder-dont.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/extensibility.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/extensibility/annotations.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/designers-developers/developers/block-api/block-annotations.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/extensibility/autocomplete.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/extensibility/extending-blocks.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/extensibility/extending-editor.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/extensibility/meta-box.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/extensibility/parser.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/extensibility/theme-support.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/grammar.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/grammar.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/language.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/docs/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/outreach.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/outreach/articles.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/outreach/meetups.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/outreach/resources.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/outreach/talks.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/packages.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/principles.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/contributors/principles.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/principles/the-block.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/contributors/principles/the-block.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/reference.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/reference/coding-guidelines.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/reference/copy-guide.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/reference/deprecated.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/reference/faq.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/reference/glossary.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/reference/history.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/reference/release-screenshot.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/contributors/release-screenshot.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/reference/release.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/reference/repository-management.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/reference/scripts.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/reference/testing-overview.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/root-manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/templates.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/designers-developers/developers/block-api/block-templates.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/tool/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/tool/config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/tool/generator.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/tool/generator.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/tool/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/tool/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/tool/manifest.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/tool/manifest.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/tool/parser.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/tool/parser.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eslint/config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gutenberg.php" beforeDir="false" afterPath="$PROJECT_DIR$/gutenberg.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/jsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/blocks.php" beforeDir="false" afterPath="$PROJECT_DIR$/lib/blocks.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/class-wp-block-type-registry.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/class-wp-block-type.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/class-wp-rest-autosaves-controller.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/class-wp-rest-block-renderer-controller.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/class-wp-rest-blocks-controller.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/class-wp-rest-post-search-handler.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/class-wp-rest-search-controller.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/class-wp-rest-search-handler.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/class-wp-rest-themes-controller.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/client-assets.php" beforeDir="false" afterPath="$PROJECT_DIR$/lib/client-assets.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/compat.php" beforeDir="false" afterPath="$PROJECT_DIR$/lib/compat.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/load.php" beforeDir="false" afterPath="$PROJECT_DIR$/lib/load.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/rest-api.php" beforeDir="false" afterPath="$PROJECT_DIR$/lib/rest-api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/annotations/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/packages/annotations/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/annotations/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/packages/annotations/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/annotations/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/annotations/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/annotations/src/block/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/annotations/src/block/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/annotations/src/format/annotation.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/annotations/src/format/annotation.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/annotations/src/store/actions.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/annotations/src/store/actions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/annotations/src/store/reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/annotations/src/store/reducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/annotations/src/store/selectors.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/annotations/src/store/selectors.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/annotations/src/store/test/reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/annotations/src/store/test/reducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/api-fetch/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/packages/api-fetch/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/api-fetch/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/packages/api-fetch/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/api-fetch/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/api-fetch/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/api-fetch/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/api-fetch/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/api-fetch/src/test/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/api-fetch/src/test/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/autop/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/packages/autop/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/autop/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/autop/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/autop/src/test/index.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/autop/src/test/index.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/babel-plugin-import-jsx-pragma/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/babel-plugin-import-jsx-pragma/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/babel-plugin-makepot/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/packages/babel-plugin-makepot/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/babel-plugin-makepot/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/babel-plugin-makepot/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/babel-preset-default/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/babel-preset-default/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/block-library/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/packages/block-library/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/block-library/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/block-library/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/block-library/src/archives/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/packages/block-library/src/archives/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/block-library/src/audio/edit.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/block-library/src/audio/edit.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/block-library/src/audio/test/__snapshots__/index.js.snap" beforeDir="false" afterPath="$PROJECT_DIR$/packages/block-library/src/audio/test/__snapshots__/index.js.snap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/block-library/src/block/edit-panel/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/block-library/src/block/edit-panel/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/block-library/src/block/edit-panel/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/packages/block-library/src/block/edit-panel/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/block-library/src/block/edit.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/block-library/src/block/edit.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/block-library/src/block/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/block-library/src/block/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/block-library/src/block/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/packages/block-library/src/block/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/block-library/src/button/editor.scss" beforeDir="false" afterPath="$PROJECT_DIR$/packages/block-library/src/button/editor.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/block-library/src/button/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/packages/block-library/src/button/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/block-library/src/button/test/__snapshots__/index.js.snap" beforeDir="false" afterPath="$PROJECT_DIR$/packages/block-library/src/button/test/__snapshots__/index.js.snap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/block-library/src/categories/edit.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/block-library/src/categories/edit.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/block-library/src/categories/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/block-library/src/categories/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/block-library/src/categories/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/packages/block-library/src/categories/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/block-library/src/classic/edit.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/block-library/src/classic/edit.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/block-library/src/classic/editor.scss" beforeDir="false" afterPath="$PROJECT_DIR$/packages/block-library/src/classic/editor.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/block-library/src/code/edit.native.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/block-library/src/code/edit.native.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/block-library/src/code/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/block-library/src/code/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/block-library/src/columns/editor.scss" beforeDir="false" afterPath="$PROJECT_DIR$/packages/block-library/src/columns/editor.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/block-library/src/cover/editor.scss" beforeDir="false" afterPath="$PROJECT_DIR$/packages/block-library/src/cover/editor.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/block-library/src/cover/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/block-library/src/cover/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/block-library/src/cover/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/packages/block-library/src/cover/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/block-library/src/cover/test/__snapshots__/index.js.snap" beforeDir="false" afterPath="$PROJECT_DIR$/packages/block-library/src/cover/test/__snapshots__/index.js.snap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/block-library/src/editor.scss" beforeDir="false" afterPath="$PROJECT_DIR$/packages/block-library/src/editor.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/block-library/src/embed/constants.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/block-library/src/embed/constants.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/block-library/src/embed/core-embeds.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/block-library/src/embed/core-embeds.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/block-library/src/embed/edit.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/block-library/src/embed/edit.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/block-library/src/embed/editor.scss" beforeDir="false" afterPath="$PROJECT_DIR$/packages/block-library/src/embed/editor.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/block-library/src/embed/embed-placeholder.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/block-library/src/embed/embed-placeholder.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/block-library/src/embed/embed-preview.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/block-library/src/embed/embed-preview.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/block-library/src/embed/settings.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/block-library/src/embed/settings.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/block-library/src/embed/util.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/block-library/src/embed/util.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/block-library/src/file/edit.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/block-library/src/file/edit.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/block-library/src/gallery/edit.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/block-library/src/gallery/edit.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/block-library/src/gallery/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/block-library/src/gallery/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/block-library/src/gallery/test/__snapshots__/index.js.snap" beforeDir="false" afterPath="$PROJECT_DIR$/packages/block-library/src/gallery/test/__snapshots__/index.js.snap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/block-library/src/heading/edit.native.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/block-library/src/heading/edit.native.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/block-library/src/heading/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/block-library/src/heading/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/block-library/src/heading/test/__snapshots__/index.js.snap" beforeDir="false" afterPath="$PROJECT_DIR$/packages/block-library/src/heading/test/__snapshots__/index.js.snap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/block-library/src/html/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/block-library/src/html/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/block-library/src/image/edit.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/block-library/src/image/edit.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/block-library/src/image/edit.native.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/block-library/src/image/edit.native.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/block-library/src/image/image-size.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/block-library/src/image/image-size.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/block-library/src/image/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/block-library/src/image/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/block-library/src/index.native.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/block-library/src/index.native.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/block-library/src/latest-comments/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/packages/block-library/src/latest-comments/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/block-library/src/latest-posts/edit.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/block-library/src/latest-posts/edit.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/block-library/src/latest-posts/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/block-library/src/latest-posts/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/block-library/src/latest-posts/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/packages/block-library/src/latest-posts/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/block-library/src/list/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/block-library/src/list/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/block-library/src/list/test/__snapshots__/index.js.snap" beforeDir="false" afterPath="$PROJECT_DIR$/packages/block-library/src/list/test/__snapshots__/index.js.snap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/block-library/src/media-text/edit.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/block-library/src/media-text/edit.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/block-library/src/media-text/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/block-library/src/media-text/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/block-library/src/media-text/media-container.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/block-library/src/media-text/media-container.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/block-library/src/more/edit.native.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/block-library/src/more/edit.native.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/block-library/src/more/editor.native.scss" beforeDir="false" afterPath="$PROJECT_DIR$/packages/block-library/src/more/editor.native.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/block-library/src/more/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/block-library/src/more/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/block-library/src/nextpage/edit.native.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/block-library/src/nextpage/edit.native.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/block-library/src/paragraph/edit.native.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/block-library/src/paragraph/edit.native.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/block-library/src/paragraph/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/block-library/src/paragraph/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/block-library/src/paragraph/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/packages/block-library/src/paragraph/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/block-library/src/paragraph/test/__snapshots__/index.js.snap" beforeDir="false" afterPath="$PROJECT_DIR$/packages/block-library/src/paragraph/test/__snapshots__/index.js.snap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/block-library/src/preformatted/test/__snapshots__/index.js.snap" beforeDir="false" afterPath="$PROJECT_DIR$/packages/block-library/src/preformatted/test/__snapshots__/index.js.snap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/block-library/src/pullquote/test/__snapshots__/index.js.snap" beforeDir="false" afterPath="$PROJECT_DIR$/packages/block-library/src/pullquote/test/__snapshots__/index.js.snap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/block-library/src/quote/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/block-library/src/quote/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/block-library/src/quote/test/__snapshots__/index.js.snap" beforeDir="false" afterPath="$PROJECT_DIR$/packages/block-library/src/quote/test/__snapshots__/index.js.snap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/block-library/src/separator/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/block-library/src/separator/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/block-library/src/shortcode/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/packages/block-library/src/shortcode/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/block-library/src/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/packages/block-library/src/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/block-library/src/table/edit.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/block-library/src/table/edit.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/block-library/src/table/editor.scss" beforeDir="false" afterPath="$PROJECT_DIR$/packages/block-library/src/table/editor.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/block-library/src/table/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/block-library/src/table/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/block-library/src/table/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/packages/block-library/src/table/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/block-library/src/text-columns/test/__snapshots__/index.js.snap" beforeDir="false" afterPath="$PROJECT_DIR$/packages/block-library/src/text-columns/test/__snapshots__/index.js.snap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/block-library/src/verse/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/block-library/src/verse/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/block-library/src/verse/test/__snapshots__/index.js.snap" beforeDir="false" afterPath="$PROJECT_DIR$/packages/block-library/src/verse/test/__snapshots__/index.js.snap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/block-library/src/video/edit.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/block-library/src/video/edit.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/block-library/src/video/test/__snapshots__/index.js.snap" beforeDir="false" afterPath="$PROJECT_DIR$/packages/block-library/src/video/test/__snapshots__/index.js.snap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/block-serialization-default-parser/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/packages/block-serialization-default-parser/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/block-serialization-default-parser/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/packages/block-serialization-default-parser/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/block-serialization-default-parser/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/block-serialization-default-parser/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/block-serialization-default-parser/parser.php" beforeDir="false" afterPath="$PROJECT_DIR$/packages/block-serialization-default-parser/parser.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/block-serialization-default-parser/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/block-serialization-default-parser/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/block-serialization-default-parser/test/test-parser.php" beforeDir="false" afterPath="$PROJECT_DIR$/packages/block-serialization-default-parser/test/test-parser.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/block-serialization-spec-parser/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/packages/block-serialization-spec-parser/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/block-serialization-spec-parser/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/packages/block-serialization-spec-parser/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/block-serialization-spec-parser/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/block-serialization-spec-parser/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/block-serialization-spec-parser/shared-tests.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/block-serialization-spec-parser/shared-tests.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/block-serialization-spec-parser/test/test-parser.php" beforeDir="false" afterPath="$PROJECT_DIR$/packages/block-serialization-spec-parser/test/test-parser.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/blocks/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/packages/blocks/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/blocks/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/packages/blocks/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/blocks/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/blocks/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/blocks/src/api/categories.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/blocks/src/api/categories.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/blocks/src/api/factory.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/blocks/src/api/factory.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/blocks/src/api/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/blocks/src/api/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/blocks/src/api/index.native.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/blocks/src/api/index.native.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/blocks/src/api/raw-handling/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/blocks/src/api/raw-handling/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/blocks/src/api/raw-handling/list-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/blocks/src/api/raw-handling/list-reducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/blocks/src/api/raw-handling/test/list-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/blocks/src/api/raw-handling/test/list-reducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/blocks/src/api/raw-handling/test/utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/blocks/src/api/raw-handling/test/utils.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/blocks/src/api/raw-handling/utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/blocks/src/api/raw-handling/utils.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/blocks/src/api/registration.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/blocks/src/api/registration.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/blocks/src/api/serializer.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/blocks/src/api/serializer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/blocks/src/api/test/utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/blocks/src/api/test/utils.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/blocks/src/api/utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/blocks/src/api/utils.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/blocks/src/store/actions.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/blocks/src/store/actions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/blocks/src/store/reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/blocks/src/store/reducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/blocks/src/store/test/reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/blocks/src/store/test/reducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/browserslist-config/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/packages/browserslist-config/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/browserslist-config/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/browserslist-config/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/components/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/components/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/components/src/button-group/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/button-group/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/components/src/button/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/button/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/components/src/button/index.native.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/button/index.native.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/components/src/button/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/button/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/components/src/color-palette/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/color-palette/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/components/src/color-palette/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/color-palette/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/components/src/color-palette/test/__snapshots__/index.js.snap" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/color-palette/test/__snapshots__/index.js.snap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/components/src/color-picker/saturation.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/color-picker/saturation.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/components/src/dashicon/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/dashicon/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/components/src/date-time/date.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/date-time/date.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/components/src/date-time/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/date-time/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/components/src/date-time/test/time.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/date-time/test/time.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/components/src/date-time/time.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/date-time/time.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/components/src/drop-zone/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/drop-zone/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/components/src/drop-zone/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/drop-zone/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/components/src/dropdown-menu/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/dropdown-menu/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/components/src/dropdown/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/dropdown/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/components/src/dropdown/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/dropdown/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/components/src/font-size-picker/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/font-size-picker/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/components/src/form-toggle/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/form-toggle/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/components/src/form-toggle/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/form-toggle/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/components/src/form-token-field/test/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/form-token-field/test/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/components/src/higher-order/with-filters/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/higher-order/with-filters/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/components/src/higher-order/with-filters/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/higher-order/with-filters/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/components/src/icon-button/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/icon-button/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/components/src/icon-button/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/icon-button/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/components/src/icon-button/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/icon-button/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/components/src/index.native.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/index.native.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/components/src/menu-group/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/menu-group/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/components/src/menu-item/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/menu-item/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/components/src/modal/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/modal/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/components/src/notice/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/notice/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/components/src/notice/list.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/notice/list.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/components/src/notice/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/notice/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/components/src/panel/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/panel/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/components/src/popover/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/popover/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/components/src/popover/utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/popover/utils.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/components/src/primitives/svg/index.native.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/primitives/svg/index.native.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/components/src/query-controls/terms.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/query-controls/terms.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/components/src/radio-control/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/radio-control/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/components/src/range-control/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/range-control/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/components/src/sandbox/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/sandbox/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/components/src/select-control/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/select-control/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/components/src/server-side-render/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/server-side-render/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/components/src/slot-fill/context.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/slot-fill/context.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/components/src/slot-fill/fill.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/slot-fill/fill.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/components/src/slot-fill/slot.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/slot-fill/slot.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/components/src/slot-fill/test/__snapshots__/slot.js.snap" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/slot-fill/test/__snapshots__/slot.js.snap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/components/src/slot-fill/test/slot.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/slot-fill/test/slot.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/components/src/tab-panel/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/tab-panel/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/components/src/tab-panel/test/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/tab-panel/test/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/components/src/textarea-control/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/textarea-control/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/components/src/toolbar/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/toolbar/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/components/src/toolbar/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/toolbar/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/components/src/toolbar/toolbar-container.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/toolbar/toolbar-container.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/components/src/toolbar/toolbar-container.native.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/toolbar/toolbar-container.native.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/components/src/tooltip/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/packages/components/src/tooltip/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/compose/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/compose/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/core-data/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/packages/core-data/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/core-data/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/packages/core-data/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/core-data/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/core-data/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/core-data/src/actions.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/core-data/src/actions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/core-data/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/core-data/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/core-data/src/reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/core-data/src/reducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/core-data/src/resolvers.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/core-data/src/resolvers.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/core-data/src/selectors.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/core-data/src/selectors.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/core-data/src/test/actions.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/core-data/src/test/actions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/core-data/src/test/reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/core-data/src/test/reducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/core-data/src/test/resolvers.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/core-data/src/test/resolvers.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/core-data/src/test/selectors.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/core-data/src/test/selectors.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/custom-templated-path-webpack-plugin/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/custom-templated-path-webpack-plugin/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/data/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/packages/data/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/data/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/packages/data/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/data/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/data/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/data/src/components/with-dispatch/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/data/src/components/with-dispatch/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/data/src/components/with-dispatch/test/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/data/src/components/with-dispatch/test/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/data/src/components/with-select/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/data/src/components/with-select/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/data/src/components/with-select/test/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/data/src/components/with-select/test/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/data/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/data/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/data/src/namespace-store.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/data/src/namespace-store.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/data/src/plugins/persistence/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/data/src/plugins/persistence/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/data/src/plugins/persistence/test/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/data/src/plugins/persistence/test/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/date/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/packages/date/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/date/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/date/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/date/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/date/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/deprecated/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/packages/deprecated/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/deprecated/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/deprecated/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/dom/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/packages/dom/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/dom/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/dom/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/dom/src/dom.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/dom/src/dom.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/edit-post/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/packages/edit-post/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/edit-post/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/packages/edit-post/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/edit-post/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/edit-post/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/edit-post/src/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/edit-post/src/components/fullscreen-mode/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/packages/edit-post/src/components/fullscreen-mode/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/edit-post/src/components/header/fullscreen-mode-close/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/packages/edit-post/src/components/header/fullscreen-mode-close/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/edit-post/src/components/header/header-toolbar/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/edit-post/src/components/header/header-toolbar/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/edit-post/src/components/header/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/edit-post/src/components/header/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/edit-post/src/components/header/mode-switcher/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/edit-post/src/components/header/mode-switcher/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/edit-post/src/components/header/more-menu/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/edit-post/src/components/header/more-menu/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/edit-post/src/components/header/more-menu/test/__snapshots__/index.js.snap" beforeDir="false" afterPath="$PROJECT_DIR$/packages/edit-post/src/components/header/more-menu/test/__snapshots__/index.js.snap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/edit-post/src/components/header/plugin-sidebar-more-menu-item/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/edit-post/src/components/header/plugin-sidebar-more-menu-item/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/edit-post/src/components/header/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/packages/edit-post/src/components/header/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/edit-post/src/components/header/writing-menu/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/edit-post/src/components/header/writing-menu/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/edit-post/src/components/keyboard-shortcuts/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/edit-post/src/components/keyboard-shortcuts/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/edit-post/src/components/layout/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/edit-post/src/components/layout/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/edit-post/src/components/layout/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/packages/edit-post/src/components/layout/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/edit-post/src/components/meta-boxes/meta-box-visibility.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/edit-post/src/components/meta-boxes/meta-box-visibility.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/edit-post/src/components/meta-boxes/meta-boxes-area/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/packages/edit-post/src/components/meta-boxes/meta-boxes-area/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/edit-post/src/components/options-modal/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/edit-post/src/components/options-modal/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/edit-post/src/components/options-modal/test/__snapshots__/index.js.snap" beforeDir="false" afterPath="$PROJECT_DIR$/packages/edit-post/src/components/options-modal/test/__snapshots__/index.js.snap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/edit-post/src/components/sidebar/plugin-sidebar/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/edit-post/src/components/sidebar/plugin-sidebar/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/edit-post/src/components/sidebar/post-link/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/edit-post/src/components/sidebar/post-link/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/edit-post/src/components/sidebar/post-link/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/packages/edit-post/src/components/sidebar/post-link/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/edit-post/src/components/sidebar/settings-header/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/edit-post/src/components/sidebar/settings-header/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/edit-post/src/components/sidebar/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/packages/edit-post/src/components/sidebar/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/edit-post/src/components/text-editor/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/edit-post/src/components/text-editor/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/edit-post/src/components/text-editor/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/packages/edit-post/src/components/text-editor/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/edit-post/src/components/visual-editor/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/packages/edit-post/src/components/visual-editor/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/edit-post/src/editor.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/edit-post/src/editor.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/edit-post/src/hooks/components/media-upload/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/edit-post/src/hooks/components/media-upload/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/edit-post/src/hooks/validate-multiple-use/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/edit-post/src/hooks/validate-multiple-use/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/edit-post/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/edit-post/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/edit-post/src/plugins/keyboard-shortcuts-help-menu-item/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/edit-post/src/plugins/keyboard-shortcuts-help-menu-item/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/edit-post/src/store/effects.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/edit-post/src/store/effects.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/edit-post/src/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/packages/edit-post/src/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/editor/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/packages/editor/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/editor/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/packages/editor/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/editor/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/editor/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/editor/src/components/autocompleters/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/packages/editor/src/components/autocompleters/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/editor/src/components/autocompleters/block.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/editor/src/components/autocompleters/block.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/editor/src/components/autocompleters/test/block.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/editor/src/components/autocompleters/test/block.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/editor/src/components/block-compare/block-view.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/editor/src/components/block-compare/block-view.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/editor/src/components/block-compare/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/packages/editor/src/components/block-compare/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/editor/src/components/block-compare/test/__snapshots__/block-view.js.snap" beforeDir="false" afterPath="$PROJECT_DIR$/packages/editor/src/components/block-compare/test/__snapshots__/block-view.js.snap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/editor/src/components/block-draggable/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/editor/src/components/block-draggable/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/editor/src/components/block-drop-zone/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/editor/src/components/block-drop-zone/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/editor/src/components/block-inspector/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/editor/src/components/block-inspector/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/editor/src/components/block-inspector/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/packages/editor/src/components/block-inspector/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/editor/src/components/block-list-appender/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/editor/src/components/block-list-appender/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/editor/src/components/block-list/block-invalid-warning.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/editor/src/components/block-list/block-invalid-warning.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/editor/src/components/block-list/block.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/editor/src/components/block-list/block.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/editor/src/components/block-list/breadcrumb.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/editor/src/components/block-list/breadcrumb.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/editor/src/components/block-list/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/editor/src/components/block-list/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/editor/src/components/block-list/insertion-point.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/editor/src/components/block-list/insertion-point.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/editor/src/components/block-list/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/packages/editor/src/components/block-list/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/editor/src/components/block-navigation/dropdown.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/editor/src/components/block-navigation/dropdown.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/editor/src/components/block-navigation/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/editor/src/components/block-navigation/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/editor/src/components/block-settings-menu/reusable-block-convert-button.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/editor/src/components/block-settings-menu/reusable-block-convert-button.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/editor/src/components/block-settings-menu/reusable-block-delete-button.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/editor/src/components/block-settings-menu/reusable-block-delete-button.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/editor/src/components/block-settings-menu/test/__snapshots__/reusable-block-delete-button.js.snap" beforeDir="false" afterPath="$PROJECT_DIR$/packages/editor/src/components/block-settings-menu/test/__snapshots__/reusable-block-delete-button.js.snap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/editor/src/components/block-settings-menu/test/reusable-block-convert-button.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/editor/src/components/block-settings-menu/test/reusable-block-convert-button.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/editor/src/components/block-settings-menu/test/reusable-block-delete-button.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/editor/src/components/block-settings-menu/test/reusable-block-delete-button.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/editor/src/components/block-styles/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/packages/editor/src/components/block-styles/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/editor/src/components/block-switcher/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/editor/src/components/block-switcher/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/editor/src/components/block-switcher/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/packages/editor/src/components/block-switcher/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/editor/src/components/colors/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/editor/src/components/colors/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/editor/src/components/colors/with-colors.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/editor/src/components/colors/with-colors.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/editor/src/components/copy-handler/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/editor/src/components/copy-handler/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/editor/src/components/default-block-appender/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/editor/src/components/default-block-appender/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/editor/src/components/default-block-appender/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/packages/editor/src/components/default-block-appender/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/editor/src/components/default-block-appender/test/__snapshots__/index.js.snap" beforeDir="false" afterPath="$PROJECT_DIR$/packages/editor/src/components/default-block-appender/test/__snapshots__/index.js.snap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/editor/src/components/document-outline/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/editor/src/components/document-outline/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/editor/src/components/document-outline/test/__snapshots__/index.js.snap" beforeDir="false" afterPath="$PROJECT_DIR$/packages/editor/src/components/document-outline/test/__snapshots__/index.js.snap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/editor/src/components/editor-global-keyboard-shortcuts/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/editor/src/components/editor-global-keyboard-shortcuts/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/editor/src/components/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/editor/src/components/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/editor/src/components/index.native.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/editor/src/components/index.native.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/editor/src/components/inserter-with-shortcuts/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/packages/editor/src/components/inserter-with-shortcuts/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/editor/src/components/inserter/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/editor/src/components/inserter/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/editor/src/components/inserter/menu.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/editor/src/components/inserter/menu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/editor/src/components/inserter/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/packages/editor/src/components/inserter/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/editor/src/components/inserter/test/menu.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/editor/src/components/inserter/test/menu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/editor/src/components/media-placeholder/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/packages/editor/src/components/media-placeholder/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/editor/src/components/media-placeholder/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/editor/src/components/media-placeholder/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/editor/src/components/media-placeholder/index.native.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/editor/src/components/media-placeholder/index.native.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/editor/src/components/media-upload/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/packages/editor/src/components/media-upload/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/editor/src/components/media-upload/check.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/editor/src/components/media-upload/check.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/editor/src/components/page-attributes/parent.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/editor/src/components/page-attributes/parent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/editor/src/components/plain-text/index.native.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/editor/src/components/plain-text/index.native.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/editor/src/components/post-excerpt/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/editor/src/components/post-excerpt/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/editor/src/components/post-locked-modal/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/editor/src/components/post-locked-modal/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/editor/src/components/post-permalink/editor.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/editor/src/components/post-permalink/editor.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/editor/src/components/post-permalink/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/editor/src/components/post-permalink/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/editor/src/components/post-preview-button/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/editor/src/components/post-preview-button/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/editor/src/components/post-publish-button/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/editor/src/components/post-publish-button/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/editor/src/components/post-publish-button/test/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/editor/src/components/post-publish-button/test/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/editor/src/components/post-publish-panel/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/editor/src/components/post-publish-panel/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/editor/src/components/post-publish-panel/test/toggle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/editor/src/components/post-publish-panel/toggle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/editor/src/components/post-saved-state/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/editor/src/components/post-saved-state/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/editor/src/components/post-taxonomies/check.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/editor/src/components/post-taxonomies/check.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/editor/src/components/post-taxonomies/flat-term-selector.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/editor/src/components/post-taxonomies/flat-term-selector.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/editor/src/components/post-title/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/packages/editor/src/components/post-title/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/editor/src/components/post-visibility/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/packages/editor/src/components/post-visibility/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/editor/src/components/provider/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/editor/src/components/provider/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/editor/src/components/rich-text/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/packages/editor/src/components/rich-text/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/editor/src/components/rich-text/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/editor/src/components/rich-text/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/editor/src/components/rich-text/index.native.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/editor/src/components/rich-text/index.native.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/editor/src/components/rich-text/list-edit.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/editor/src/components/rich-text/list-edit.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/editor/src/components/rich-text/patterns.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/editor/src/components/rich-text/patterns.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/editor/src/components/rich-text/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/packages/editor/src/components/rich-text/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/editor/src/components/rich-text/tinymce.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/editor/src/components/rich-text/tinymce.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/editor/src/components/table-of-contents/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/editor/src/components/table-of-contents/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/editor/src/components/url-input/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/editor/src/components/url-input/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/editor/src/components/warning/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/editor/src/components/warning/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/editor/src/components/word-count/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/editor/src/components/word-count/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/editor/src/editor-styles/ast/parse.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/editor/src/editor-styles/ast/parse.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/editor/src/editor-styles/ast/stringify/identity.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/editor/src/editor-styles/ast/stringify/identity.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/editor/src/editor-styles/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/editor/src/editor-styles/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/editor/src/editor-styles/transforms/test/__snapshots__/wrap.js.snap" beforeDir="false" afterPath="$PROJECT_DIR$/packages/editor/src/editor-styles/transforms/test/__snapshots__/wrap.js.snap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/editor/src/editor-styles/transforms/test/wrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/editor/src/editor-styles/transforms/test/wrap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/editor/src/editor-styles/transforms/wrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/editor/src/editor-styles/transforms/wrap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/editor/src/hooks/align.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/editor/src/hooks/align.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/editor/src/hooks/anchor.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/editor/src/hooks/anchor.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/editor/src/hooks/test/align.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/editor/src/hooks/test/align.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/editor/src/hooks/test/anchor.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/editor/src/hooks/test/anchor.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/editor/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/editor/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/editor/src/store/actions.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/editor/src/store/actions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/editor/src/store/defaults.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/editor/src/store/defaults.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/editor/src/store/effects.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/editor/src/store/effects.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/editor/src/store/effects/posts.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/editor/src/store/effects/posts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/editor/src/store/effects/reusable-blocks.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/editor/src/store/effects/reusable-blocks.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/editor/src/store/effects/test/reusable-blocks.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/editor/src/store/effects/test/reusable-blocks.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/editor/src/store/reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/editor/src/store/reducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/editor/src/store/selectors.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/editor/src/store/selectors.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/editor/src/store/test/effects.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/editor/src/store/test/effects.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/editor/src/store/test/reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/editor/src/store/test/reducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/editor/src/store/test/selectors.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/editor/src/store/test/selectors.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/editor/src/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/packages/editor/src/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/editor/src/utils/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/editor/src/utils/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/editor/src/utils/media-upload/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/editor/src/utils/media-upload/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/editor/src/utils/media-upload/media-upload.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/editor/src/utils/media-upload/media-upload.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/editor/src/utils/terms.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/editor/src/utils/terms.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/editor/src/utils/test/terms.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/editor/src/utils/test/terms.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/editor/src/utils/url.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/editor/src/utils/url.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/element/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/packages/element/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/element/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/element/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/format-library/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/packages/format-library/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/format-library/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/format-library/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/format-library/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/format-library/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/format-library/src/link/inline.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/format-library/src/link/inline.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/hooks/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/packages/hooks/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/hooks/benchmark/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/hooks/benchmark/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/hooks/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/hooks/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/hooks/src/createAddHook.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/hooks/src/createAddHook.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/hooks/src/createHooks.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/hooks/src/createHooks.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/html-entities/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/packages/html-entities/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/html-entities/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/html-entities/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/i18n/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/packages/i18n/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/i18n/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/i18n/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/is-shallow-equal/.eslintrc.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/is-shallow-equal/.eslintrc.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/is-shallow-equal/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/packages/is-shallow-equal/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/is-shallow-equal/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/packages/is-shallow-equal/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/is-shallow-equal/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/is-shallow-equal/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/is-shallow-equal/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/is-shallow-equal/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/jest-console/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/packages/jest-console/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/jest-console/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/packages/jest-console/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/jest-console/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/jest-console/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/jest-preset-default/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/packages/jest-preset-default/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/jest-preset-default/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/packages/jest-preset-default/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/jest-preset-default/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/jest-preset-default/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/keycodes/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/packages/keycodes/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/keycodes/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/keycodes/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/keycodes/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/keycodes/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/library-export-default-webpack-plugin/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/library-export-default-webpack-plugin/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/list-reusable-blocks/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/packages/list-reusable-blocks/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/list-reusable-blocks/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/list-reusable-blocks/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/notices/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/packages/notices/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/notices/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/packages/notices/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/notices/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/notices/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/notices/src/store/actions.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/notices/src/store/actions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/notices/src/store/constants.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/notices/src/store/constants.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/notices/src/store/selectors.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/notices/src/store/selectors.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/notices/src/store/test/actions.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/notices/src/store/test/actions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/npm-package-json-lint-config/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/npm-package-json-lint-config/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nux/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/packages/nux/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nux/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/packages/nux/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nux/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/nux/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nux/src/components/dot-tip/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/nux/src/components/dot-tip/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nux/src/components/dot-tip/test/__snapshots__/index.js.snap" beforeDir="false" afterPath="$PROJECT_DIR$/packages/nux/src/components/dot-tip/test/__snapshots__/index.js.snap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/plugins/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/packages/plugins/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/plugins/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/packages/plugins/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/plugins/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/plugins/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/postcss-themes/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/postcss-themes/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/redux-routine/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/packages/redux-routine/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/redux-routine/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/redux-routine/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/redux-routine/src/cast-error.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/redux-routine/src/runtime.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/redux-routine/src/runtime.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/redux-routine/src/test/cast-error.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/redux-routine/src/test/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/redux-routine/src/test/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rich-text/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/packages/rich-text/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rich-text/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/packages/rich-text/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rich-text/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/rich-text/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rich-text/src/apply-format.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/rich-text/src/apply-format.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rich-text/src/create-element.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/rich-text/src/create-element.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rich-text/src/create.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/rich-text/src/create.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rich-text/src/register-format-type.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/rich-text/src/register-format-type.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rich-text/src/test/__snapshots__/to-dom.js.snap" beforeDir="false" afterPath="$PROJECT_DIR$/packages/rich-text/src/test/__snapshots__/to-dom.js.snap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rich-text/src/test/helpers/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/rich-text/src/test/helpers/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rich-text/src/test/to-dom.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/rich-text/src/test/to-dom.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rich-text/src/to-dom.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/rich-text/src/to-dom.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/scripts/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/packages/scripts/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/scripts/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/packages/scripts/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/scripts/config/.eslintrc.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/scripts/config/.eslintrc.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/scripts/config/jest.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/scripts/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/scripts/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/scripts/scripts/test-unit-jest.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/scripts/scripts/test-unit-jest.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/scripts/utils/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/scripts/utils/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/shortcode/src/test/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/shortcode/src/test/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/token-list/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/packages/token-list/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/token-list/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/token-list/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/token-list/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/token-list/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/token-list/src/test/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/token-list/src/test/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/url/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/packages/url/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/url/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/packages/url/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/url/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/url/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/url/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/url/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/url/src/test/index.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/url/src/test/index.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/viewport/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/packages/viewport/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/viewport/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/packages/viewport/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/viewport/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/viewport/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/viewport/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/viewport/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/viewport/src/store/selectors.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/viewport/src/store/selectors.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/wordcount/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/packages/wordcount/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/phpcs.xml.dist" beforeDir="false" afterPath="$PROJECT_DIR$/phpcs.xml.dist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/phpunit/bootstrap.php" beforeDir="false" afterPath="$PROJECT_DIR$/phpunit/bootstrap.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/phpunit/class-block-type-test.php" beforeDir="false" afterPath="$PROJECT_DIR$/phpunit/class-block-type-test.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/phpunit/class-blocks-api-test.php" beforeDir="false" afterPath="$PROJECT_DIR$/phpunit/class-blocks-api-test.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/phpunit/class-gutenberg-rest-api-test.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/phpunit/class-parsing-test.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/phpunit/class-rest-autosaves-controller-test.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/phpunit/class-rest-block-renderer-controller-test.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/phpunit/class-rest-blocks-controller-test.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/phpunit/class-rest-search-controller-test.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/phpunit/class-wp-rest-dummy-search-handler.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/phpunit/class-wp-rest-themes-controller-test.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/post-content.php" beforeDir="false" afterPath="$PROJECT_DIR$/post-content.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/e2e/assets/10x10_e2e_test_image_z9T8jK.png" beforeDir="false" afterPath="$PROJECT_DIR$/packages/e2e-tests/assets/10x10_e2e_test_image_z9T8jK.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/e2e/assets/greeting-reusable-block.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/e2e-tests/assets/greeting-reusable-block.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/e2e/jest.config.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/e2e/puppeteer.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/scripts/config/puppeteer.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/e2e/specs/__snapshots__/adding-blocks.test.js.snap" beforeDir="false" afterPath="$PROJECT_DIR$/packages/e2e-tests/specs/__snapshots__/adding-blocks.test.js.snap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/e2e/specs/__snapshots__/align-hook.test.js.snap" beforeDir="false" afterPath="$PROJECT_DIR$/packages/e2e-tests/specs/plugins/__snapshots__/align-hook.test.js.snap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/e2e/specs/__snapshots__/block-deletion.test.js.snap" beforeDir="false" afterPath="$PROJECT_DIR$/packages/e2e-tests/specs/__snapshots__/block-deletion.test.js.snap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/e2e/specs/__snapshots__/block-hierarchy-navigation.test.js.snap" beforeDir="false" afterPath="$PROJECT_DIR$/packages/e2e-tests/specs/__snapshots__/block-hierarchy-navigation.test.js.snap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/e2e/specs/__snapshots__/compatibility-classic-editor.test.js.snap" beforeDir="false" afterPath="$PROJECT_DIR$/packages/e2e-tests/specs/__snapshots__/compatibility-classic-editor.test.js.snap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/e2e/specs/__snapshots__/container-blocks.test.js.snap" beforeDir="false" afterPath="$PROJECT_DIR$/packages/e2e-tests/specs/plugins/__snapshots__/container-blocks.test.js.snap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/e2e/specs/__snapshots__/convert-block-type.test.js.snap" beforeDir="false" afterPath="$PROJECT_DIR$/packages/e2e-tests/specs/__snapshots__/convert-block-type.test.js.snap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/e2e/specs/__snapshots__/deprecated-node-matcher.test.js.snap" beforeDir="false" afterPath="$PROJECT_DIR$/packages/e2e-tests/specs/plugins/__snapshots__/deprecated-node-matcher.test.js.snap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/e2e/specs/__snapshots__/font-size-picker.test.js.snap" beforeDir="false" afterPath="$PROJECT_DIR$/packages/e2e-tests/specs/__snapshots__/font-size-picker.test.js.snap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/e2e/specs/__snapshots__/links.test.js.snap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/e2e/specs/__snapshots__/mentions.test.js.snap" beforeDir="false" afterPath="$PROJECT_DIR$/packages/e2e-tests/specs/__snapshots__/mentions.test.js.snap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/e2e/specs/__snapshots__/plugins-api.test.js.snap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/e2e/specs/__snapshots__/reusable-blocks.test.js.snap" beforeDir="false" afterPath="$PROJECT_DIR$/packages/e2e-tests/specs/__snapshots__/reusable-blocks.test.js.snap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/e2e/specs/__snapshots__/rich-text.test.js.snap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/e2e/specs/__snapshots__/splitting-merging.test.js.snap" beforeDir="false" afterPath="$PROJECT_DIR$/packages/e2e-tests/specs/__snapshots__/splitting-merging.test.js.snap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/e2e/specs/__snapshots__/style-variation.test.js.snap" beforeDir="false" afterPath="$PROJECT_DIR$/packages/e2e-tests/specs/__snapshots__/style-variation.test.js.snap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/e2e/specs/__snapshots__/templates.test.js.snap" beforeDir="false" afterPath="$PROJECT_DIR$/packages/e2e-tests/specs/plugins/__snapshots__/templates.test.js.snap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/e2e/specs/__snapshots__/undo.test.js.snap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/e2e/specs/__snapshots__/writing-flow.test.js.snap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/e2e/specs/a11y.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/e2e/specs/adding-blocks.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/e2e/specs/adding-inline-tokens.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/e2e/specs/align-hook.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/e2e/specs/block-deletion.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/e2e/specs/block-hierarchy-navigation.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/e2e/specs/block-icons.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/e2e/specs/block-mover.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/e2e/specs/blocks/__snapshots__/list.test.js.snap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/e2e/specs/blocks/__snapshots__/quote.test.js.snap" beforeDir="false" afterPath="$PROJECT_DIR$/packages/e2e-tests/specs/blocks/__snapshots__/quote.test.js.snap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/e2e/specs/blocks/list.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/e2e/specs/blocks/quote.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/e2e/specs/change-detection.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/e2e/specs/classic-editor.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/e2e/specs/compatibility-classic-editor.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/e2e/specs/container-blocks.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/e2e/specs/convert-block-type.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/e2e/specs/datepicker.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/e2e/specs/demo.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/e2e/specs/deprecated-node-matcher.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/e2e/specs/editor-modes.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/e2e/specs/embedding.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/e2e/specs/font-size-picker.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/e2e/specs/fullscreen-mode.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/e2e/specs/hooks-api.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/e2e/specs/invalid-block.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/e2e/specs/links.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/e2e/specs/manage-reusable-blocks.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/e2e/specs/mentions.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/e2e/specs/meta-boxes.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/e2e/specs/multi-block-selection.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/e2e/specs/navigable-toolbar.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/e2e/specs/new-post-default-content.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/e2e/specs/new-post.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/e2e/specs/nux.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/e2e/specs/plugins-api.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/e2e/specs/popovers.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/e2e/specs/preferences.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/e2e/specs/preview.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/e2e/specs/publish-button.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/e2e/specs/publish-panel.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/e2e/specs/publishing.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/e2e/specs/reusable-blocks.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/e2e/specs/rich-text.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/e2e/specs/shortcut-help.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/e2e/specs/sidebar.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/e2e/specs/splitting-merging.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/e2e/specs/style-variation.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/e2e/specs/templates.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/e2e/specs/undo.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/e2e/specs/writing-flow.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/e2e/support/plugins.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/e2e/support/setup-test-framework.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/e2e/support/utils/accept-page-dialog.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/e2e/support/utils/are-pre-publish-checks-enabled.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/e2e/support/utils/clear-local-storage.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/e2e/support/utils/click-block-appender.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/e2e-test-utils/src/click-block-appender.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/e2e/support/utils/click-on-close-modal-button.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/e2e-test-utils/src/click-on-close-modal-button.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/e2e/support/utils/click-on-more-menu-item.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/e2e/support/utils/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/e2e-test-utils/src/shared/config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/e2e/support/utils/convert-block.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/e2e/support/utils/disable-pre-publish-checks.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/e2e/support/utils/enable-page-dialog-accept.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/e2e/support/utils/enable-pre-publish-checks.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/e2e/support/utils/ensure-sidebar-opened.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/e2e-test-utils/src/ensure-sidebar-opened.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/e2e/support/utils/find-sidebar-panel-with-title.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/e2e-test-utils/src/find-sidebar-panel-with-title.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/e2e/support/utils/get-all-blocks.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/e2e-test-utils/src/get-all-blocks.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/e2e/support/utils/get-edited-post-content.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/e2e-test-utils/src/get-edited-post-content.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/e2e/support/utils/get-json-response.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/e2e-test-utils/src/shared/get-json-response.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/e2e/support/utils/get-url.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/e2e/support/utils/go-to-wp-path.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/e2e/support/utils/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/e2e/support/utils/insert-block.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/e2e-test-utils/src/insert-block.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/e2e/support/utils/is-embedding.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/e2e/support/utils/is-wp-path.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/e2e/support/utils/json-response.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/e2e/support/utils/login.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/e2e/support/utils/match-url.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/e2e/support/utils/meta-key.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/e2e/support/utils/mock-or-transform.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/e2e/support/utils/new-post.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/e2e/support/utils/observe-focus-loss.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/e2e-test-utils/src/observe-focus-loss.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/e2e/support/utils/open-document-settings-sidebar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/e2e/support/utils/open-publish-panel.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/e2e-test-utils/src/open-publish-panel.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/e2e/support/utils/parameter-equals.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/e2e/support/utils/press-times.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/e2e/support/utils/press-with-modifier.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/e2e/support/utils/promise-sequence.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/e2e/support/utils/publish-post-without-pre-publish-checks.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/e2e/support/utils/publish-post.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/e2e-test-utils/src/publish-post.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/e2e/support/utils/save-draft.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/e2e-test-utils/src/save-draft.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/e2e/support/utils/search-for-block.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/e2e-test-utils/src/search-for-block.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/e2e/support/utils/select-block-by-client-id.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/e2e-test-utils/src/select-block-by-client-id.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/e2e/support/utils/set-post-content.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/e2e-test-utils/src/set-post-content.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/e2e/support/utils/set-up-response-mocking.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/e2e/support/utils/set-viewport.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/e2e/support/utils/switch-to-admin-user.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/e2e/support/utils/switch-to-editor.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/e2e/support/utils/switch-to-test-user.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/e2e/support/utils/toggle-option.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/e2e/support/utils/visit-admin.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/e2e/support/utils/wait-for-page-dimensions.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/e2e/test-mu-plugins/disable-login-autofocus.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/e2e/test-plugins/align-hook.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/e2e/test-plugins/align-hook/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/e2e-tests/plugins/align-hook/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/e2e/test-plugins/block-icons.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/e2e/test-plugins/block-icons/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/e2e-tests/plugins/block-icons/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/e2e/test-plugins/container-without-paragraph.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/e2e/test-plugins/container-without-paragraph/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/e2e-tests/plugins/container-without-paragraph/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/e2e/test-plugins/default-post-content.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/e2e/test-plugins/deprecated-node-matcher.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/e2e/test-plugins/deprecated-node-matcher/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/e2e-tests/plugins/deprecated-node-matcher/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/e2e/test-plugins/hooks-api.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/e2e/test-plugins/hooks-api/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/e2e-tests/plugins/hooks-api/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/e2e/test-plugins/inner-blocks-templates.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/e2e/test-plugins/inner-blocks-templates/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/e2e-tests/plugins/inner-blocks-templates/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/e2e/test-plugins/meta-box.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/e2e/test-plugins/plugins-api.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/e2e/test-plugins/plugins-api/post-status-info.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/e2e-tests/plugins/plugins-api/post-status-info.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/e2e/test-plugins/plugins-api/publish-panel.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/e2e-tests/plugins/plugins-api/publish-panel.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/e2e/test-plugins/plugins-api/sidebar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/e2e/test-plugins/templates.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/integration/__snapshots__/blocks-raw-handling.spec.js.snap" beforeDir="false" afterPath="$PROJECT_DIR$/test/integration/__snapshots__/blocks-raw-handling.spec.js.snap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/integration/blocks-raw-handling.spec.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/integration/blocks-raw-handling.spec.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/integration/fixtures/caption-shortcode-in.html" beforeDir="false" afterPath="$PROJECT_DIR$/test/integration/fixtures/shortcode-caption.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/integration/fixtures/caption-shortcode-out.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/integration/fixtures/wordpress-convert.html" beforeDir="false" afterPath="$PROJECT_DIR$/test/integration/fixtures/wordpress-convert.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/integration/fixtures/wordpress-out.html" beforeDir="false" afterPath="$PROJECT_DIR$/test/integration/fixtures/wordpress-out.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/integration/full-content/fixtures/core__audio.parsed.json" beforeDir="false" afterPath="$PROJECT_DIR$/test/integration/full-content/fixtures/core__audio.parsed.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/integration/full-content/fixtures/core__block.parsed.json" beforeDir="false" afterPath="$PROJECT_DIR$/test/integration/full-content/fixtures/core__block.parsed.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/integration/full-content/fixtures/core__button__center.parsed.json" beforeDir="false" afterPath="$PROJECT_DIR$/test/integration/full-content/fixtures/core__button__center.parsed.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/integration/full-content/fixtures/core__categories.parsed.json" beforeDir="false" afterPath="$PROJECT_DIR$/test/integration/full-content/fixtures/core__categories.parsed.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/integration/full-content/fixtures/core__code.parsed.json" beforeDir="false" afterPath="$PROJECT_DIR$/test/integration/full-content/fixtures/core__code.parsed.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/integration/full-content/fixtures/core__column.parsed.json" beforeDir="false" afterPath="$PROJECT_DIR$/test/integration/full-content/fixtures/core__column.parsed.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/integration/full-content/fixtures/core__freeform.json" beforeDir="false" afterPath="$PROJECT_DIR$/test/integration/full-content/fixtures/core__freeform.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/integration/full-content/fixtures/core__freeform.serialized.html" beforeDir="false" afterPath="$PROJECT_DIR$/test/integration/full-content/fixtures/core__freeform.serialized.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/integration/full-content/fixtures/core__freeform__undelimited.json" beforeDir="false" afterPath="$PROJECT_DIR$/test/integration/full-content/fixtures/core__freeform__undelimited.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/integration/full-content/fixtures/core__freeform__undelimited.serialized.html" beforeDir="false" afterPath="$PROJECT_DIR$/test/integration/full-content/fixtures/core__freeform__undelimited.serialized.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/integration/full-content/fixtures/core__gallery.html" beforeDir="false" afterPath="$PROJECT_DIR$/test/integration/full-content/fixtures/core__gallery.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/integration/full-content/fixtures/core__gallery.json" beforeDir="false" afterPath="$PROJECT_DIR$/test/integration/full-content/fixtures/core__gallery.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/integration/full-content/fixtures/core__gallery.parsed.json" beforeDir="false" afterPath="$PROJECT_DIR$/test/integration/full-content/fixtures/core__gallery.parsed.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/integration/full-content/fixtures/core__gallery.serialized.html" beforeDir="false" afterPath="$PROJECT_DIR$/test/integration/full-content/fixtures/core__gallery.serialized.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/integration/full-content/fixtures/core__gallery__columns.html" beforeDir="false" afterPath="$PROJECT_DIR$/test/integration/full-content/fixtures/core__gallery__columns.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/integration/full-content/fixtures/core__gallery__columns.json" beforeDir="false" afterPath="$PROJECT_DIR$/test/integration/full-content/fixtures/core__gallery__columns.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/integration/full-content/fixtures/core__gallery__columns.parsed.json" beforeDir="false" afterPath="$PROJECT_DIR$/test/integration/full-content/fixtures/core__gallery__columns.parsed.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/integration/full-content/fixtures/core__gallery__columns.serialized.html" beforeDir="false" afterPath="$PROJECT_DIR$/test/integration/full-content/fixtures/core__gallery__columns.serialized.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/integration/full-content/fixtures/core__media-text.html" beforeDir="false" afterPath="$PROJECT_DIR$/test/integration/full-content/fixtures/core__media-text.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/integration/full-content/fixtures/core__media-text.json" beforeDir="false" afterPath="$PROJECT_DIR$/test/integration/full-content/fixtures/core__media-text.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/integration/full-content/fixtures/core__media-text.parsed.json" beforeDir="false" afterPath="$PROJECT_DIR$/test/integration/full-content/fixtures/core__media-text.parsed.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/integration/full-content/fixtures/core__media-text.serialized.html" beforeDir="false" afterPath="$PROJECT_DIR$/test/integration/full-content/fixtures/core__media-text.serialized.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/integration/full-content/fixtures/core__media-text__image-alt-no-align.html" beforeDir="false" afterPath="$PROJECT_DIR$/test/integration/full-content/fixtures/core__media-text__image-alt-no-align.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/integration/full-content/fixtures/core__media-text__image-alt-no-align.json" beforeDir="false" afterPath="$PROJECT_DIR$/test/integration/full-content/fixtures/core__media-text__image-alt-no-align.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/integration/full-content/fixtures/core__media-text__image-alt-no-align.parsed.json" beforeDir="false" afterPath="$PROJECT_DIR$/test/integration/full-content/fixtures/core__media-text__image-alt-no-align.parsed.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/integration/full-content/fixtures/core__media-text__image-alt-no-align.serialized.html" beforeDir="false" afterPath="$PROJECT_DIR$/test/integration/full-content/fixtures/core__media-text__image-alt-no-align.serialized.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/integration/full-content/fixtures/core__missing.parsed.json" beforeDir="false" afterPath="$PROJECT_DIR$/test/integration/full-content/fixtures/core__missing.parsed.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/integration/full-content/fixtures/core__more.parsed.json" beforeDir="false" afterPath="$PROJECT_DIR$/test/integration/full-content/fixtures/core__more.parsed.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/integration/full-content/fixtures/core__more__custom-text-teaser.parsed.json" beforeDir="false" afterPath="$PROJECT_DIR$/test/integration/full-content/fixtures/core__more__custom-text-teaser.parsed.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/integration/full-content/fixtures/core__nextpage.parsed.json" beforeDir="false" afterPath="$PROJECT_DIR$/test/integration/full-content/fixtures/core__nextpage.parsed.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/integration/full-content/fixtures/core__paragraph__align-right.parsed.json" beforeDir="false" afterPath="$PROJECT_DIR$/test/integration/full-content/fixtures/core__paragraph__align-right.parsed.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/integration/full-content/fixtures/core__paragraph__deprecated.parsed.json" beforeDir="false" afterPath="$PROJECT_DIR$/test/integration/full-content/fixtures/core__paragraph__deprecated.parsed.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/integration/full-content/fixtures/core__preformatted.parsed.json" beforeDir="false" afterPath="$PROJECT_DIR$/test/integration/full-content/fixtures/core__preformatted.parsed.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/integration/full-content/fixtures/core__pullquote.parsed.json" beforeDir="false" afterPath="$PROJECT_DIR$/test/integration/full-content/fixtures/core__pullquote.parsed.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/integration/full-content/fixtures/core__pullquote__multi-paragraph.parsed.json" beforeDir="false" afterPath="$PROJECT_DIR$/test/integration/full-content/fixtures/core__pullquote__multi-paragraph.parsed.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/integration/full-content/fixtures/core__quote__style-1.parsed.json" beforeDir="false" afterPath="$PROJECT_DIR$/test/integration/full-content/fixtures/core__quote__style-1.parsed.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/integration/full-content/fixtures/core__quote__style-2.parsed.json" beforeDir="false" afterPath="$PROJECT_DIR$/test/integration/full-content/fixtures/core__quote__style-2.parsed.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/integration/full-content/fixtures/core__separator.parsed.json" beforeDir="false" afterPath="$PROJECT_DIR$/test/integration/full-content/fixtures/core__separator.parsed.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/integration/full-content/fixtures/core__shortcode.parsed.json" beforeDir="false" afterPath="$PROJECT_DIR$/test/integration/full-content/fixtures/core__shortcode.parsed.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/integration/full-content/fixtures/core__spacer.parsed.json" beforeDir="false" afterPath="$PROJECT_DIR$/test/integration/full-content/fixtures/core__spacer.parsed.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/integration/full-content/fixtures/core__subhead.parsed.json" beforeDir="false" afterPath="$PROJECT_DIR$/test/integration/full-content/fixtures/core__subhead.parsed.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/integration/full-content/fixtures/core__table.parsed.json" beforeDir="false" afterPath="$PROJECT_DIR$/test/integration/full-content/fixtures/core__table.parsed.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/integration/full-content/fixtures/core__text-columns.parsed.json" beforeDir="false" afterPath="$PROJECT_DIR$/test/integration/full-content/fixtures/core__text-columns.parsed.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/integration/full-content/fixtures/core__text__converts-to-paragraph.parsed.json" beforeDir="false" afterPath="$PROJECT_DIR$/test/integration/full-content/fixtures/core__text__converts-to-paragraph.parsed.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/integration/full-content/fixtures/core__verse.parsed.json" beforeDir="false" afterPath="$PROJECT_DIR$/test/integration/full-content/fixtures/core__verse.parsed.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/integration/full-content/fixtures/core__video.parsed.json" beforeDir="false" afterPath="$PROJECT_DIR$/test/integration/full-content/fixtures/core__video.parsed.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/unit/jest.config.json" beforeDir="false" afterPath="$PROJECT_DIR$/test/unit/jest.config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-1734498736">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="js" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JavaScript" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.vcs.git.usages">
+        <counts>
+          <entry key="git.branch.create.new" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/packages/components/src/color-picker/saturation.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="287">
+              <caret line="177" column="92" lean-forward="true" selection-start-line="177" selection-start-column="92" selection-end-line="177" selection-end-column="92" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Use your arrow keys to change the base co</find>
+    </findStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/packages/components/src/color-picker/saturation.js" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER">
+    <package-json value="$PROJECT_DIR$/package.json" />
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/package.json" />
+      <path value="$PROJECT_DIR$/packages/a11y/package.json" />
+      <path value="$PROJECT_DIR$/packages/annotations/package.json" />
+      <path value="$PROJECT_DIR$/packages/api-fetch/package.json" />
+      <path value="$PROJECT_DIR$/packages/autop/package.json" />
+      <path value="$PROJECT_DIR$/packages/babel-plugin-import-jsx-pragma/package.json" />
+      <path value="$PROJECT_DIR$/packages/babel-plugin-makepot/package.json" />
+      <path value="$PROJECT_DIR$/packages/babel-preset-default/package.json" />
+      <path value="$PROJECT_DIR$/packages/blob/package.json" />
+      <path value="$PROJECT_DIR$/packages/block-library/package.json" />
+      <path value="$PROJECT_DIR$/packages/block-serialization-default-parser/package.json" />
+      <path value="$PROJECT_DIR$/packages/block-serialization-spec-parser/package.json" />
+      <path value="$PROJECT_DIR$/packages/blocks/package.json" />
+      <path value="$PROJECT_DIR$/packages/browserslist-config/package.json" />
+      <path value="$PROJECT_DIR$/packages/components/package.json" />
+      <path value="$PROJECT_DIR$/packages/compose/package.json" />
+      <path value="$PROJECT_DIR$/packages/core-data/package.json" />
+      <path value="$PROJECT_DIR$/packages/custom-templated-path-webpack-plugin/package.json" />
+      <path value="$PROJECT_DIR$/packages/data/package.json" />
+      <path value="$PROJECT_DIR$/packages/date/package.json" />
+      <path value="$PROJECT_DIR$/packages/deprecated/package.json" />
+      <path value="$PROJECT_DIR$/packages/dom-ready/package.json" />
+      <path value="$PROJECT_DIR$/packages/dom/package.json" />
+      <path value="$PROJECT_DIR$/packages/e2e-test-utils/package.json" />
+      <path value="$PROJECT_DIR$/packages/e2e-tests/package.json" />
+      <path value="$PROJECT_DIR$/packages/edit-post/package.json" />
+      <path value="$PROJECT_DIR$/packages/editor/package.json" />
+      <path value="$PROJECT_DIR$/packages/element/package.json" />
+      <path value="$PROJECT_DIR$/packages/escape-html/package.json" />
+      <path value="$PROJECT_DIR$/packages/eslint-plugin/package.json" />
+      <path value="$PROJECT_DIR$/packages/format-library/package.json" />
+      <path value="$PROJECT_DIR$/packages/hooks/package.json" />
+      <path value="$PROJECT_DIR$/packages/html-entities/package.json" />
+      <path value="$PROJECT_DIR$/packages/i18n/package.json" />
+      <path value="$PROJECT_DIR$/packages/is-shallow-equal/package.json" />
+      <path value="$PROJECT_DIR$/packages/jest-console/package.json" />
+      <path value="$PROJECT_DIR$/packages/jest-preset-default/package.json" />
+      <path value="$PROJECT_DIR$/packages/jest-puppeteer-axe/package.json" />
+      <path value="$PROJECT_DIR$/packages/keycodes/package.json" />
+      <path value="$PROJECT_DIR$/packages/library-export-default-webpack-plugin/package.json" />
+      <path value="$PROJECT_DIR$/packages/list-reusable-blocks/package.json" />
+      <path value="$PROJECT_DIR$/packages/notices/package.json" />
+      <path value="$PROJECT_DIR$/packages/npm-package-json-lint-config/package.json" />
+      <path value="$PROJECT_DIR$/packages/nux/package.json" />
+      <path value="$PROJECT_DIR$/packages/plugins/package.json" />
+      <path value="$PROJECT_DIR$/packages/postcss-themes/package.json" />
+      <path value="$PROJECT_DIR$/packages/priority-queue/package.json" />
+      <path value="$PROJECT_DIR$/packages/redux-routine/package.json" />
+      <path value="$PROJECT_DIR$/packages/rich-text/package.json" />
+      <path value="$PROJECT_DIR$/packages/scripts/package.json" />
+      <path value="$PROJECT_DIR$/packages/shortcode/package.json" />
+      <path value="$PROJECT_DIR$/packages/token-list/package.json" />
+      <path value="$PROJECT_DIR$/packages/url/package.json" />
+      <path value="$PROJECT_DIR$/packages/viewport/package.json" />
+      <path value="$PROJECT_DIR$/packages/wordcount/package.json" />
+    </packageJsonPaths>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="65" />
+    <option name="y" value="-4" />
+    <option name="width" value="1855" />
+    <option name="height" value="1084" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="gutenberg" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gutenberg" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="/var/vagrant-local/www/brick-theme" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="325d4135-0d34-4e0a-880b-0e5011286544" name="Default Changelist" comment="" />
+      <created>1548322277769</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1548322277769</updated>
+      <workItem from="1548322279170" duration="657000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="657000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="npm" side_tool="true" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2498618" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
+      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.3294979" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/packages/components/src/color-picker/saturation.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="287">
+          <caret line="177" column="92" lean-forward="true" selection-start-line="177" selection-start-column="92" selection-end-line="177" selection-end-column="92" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

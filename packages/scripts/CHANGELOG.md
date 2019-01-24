@@ -1,3 +1,21 @@
+## 2.6.0 (Unreleased)
+
+### New Features
+
+- Added support for `build` script ([#12837](https://github.com/WordPress/gutenberg/pull/12837))
+- Added support for `start` script ([#12837](https://github.com/WordPress/gutenberg/pull/12837))
+
+## 2.5.0 (2019-01-09)
+
+### New Features
+
+- Added support for `check-engines` script ([#12721](https://github.com/WordPress/gutenberg/pull/12721))
+- Added support for `lint-style` script ([#12722](https://github.com/WordPress/gutenberg/pull/12722))
+- Added support for `test-e2e` script ([#12437](https://github.com/WordPress/gutenberg/pull/12437))
+- Update default config provided for `lint-js` script ([#12845](https://github.com/WordPress/gutenberg/pull/12845))
+
+## 2.4.4 (2018-11-20)
+
 ## 2.4.3 (2018-11-09)
 
 ## 2.4.2 (2018-11-09)

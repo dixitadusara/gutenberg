@@ -13,6 +13,7 @@ import { Component } from '@wordpress/element';
  * Module Constants
  */
 const TIMEZONELESS_FORMAT = 'YYYY-MM-DDTHH:mm:ss';
+const isRTL = () => document.documentElement.dir === 'rtl';
 
 class DatePicker extends Component {
 	constructor() {
@@ -42,7 +43,6 @@ class DatePicker extends Component {
 		return (
 			<div className="components-datetime__date">
 				<DayPickerSingleDateController
-					block
 					date={ momentDate }
 					daySize={ 30 }
 					focused
@@ -55,6 +55,7 @@ class DatePicker extends Component {
 					onDateChange={ this.onChangeMoment }
 					transitionDuration={ 0 }
 					weekDayFormat="ddd"
+					isRTL={ isRTL() }
 				/>
 			</div>
 		);
